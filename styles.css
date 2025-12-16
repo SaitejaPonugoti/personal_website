@@ -424,4 +424,28 @@ body {
     line-height: 1.6;
     margin-bottom: 10px;
   }
-  
+.research-link {
+  display: inline-block;
+  margin-top: 14px;
+  padding: 10px 22px;
+  background: linear-gradient(135deg, #0d6efd, #0a58ca);
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 18px rgba(13, 110, 253, 0.3);
+}
+
+.research-link:hover {
+  background: linear-gradient(135deg, #084298, #052c65);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(13, 110, 253, 0.4);
+  color: #ffffff;
+}
+
+.research-link:active {
+  transform: translateY(0);
+  box-shadow: 0 5px 12px rgba(13, 110, 253, 0.3);
+}
